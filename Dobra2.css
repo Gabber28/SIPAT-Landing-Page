@@ -1,0 +1,19 @@
+.img2{
+    width: 1400px;
+    height: auto;
+}
+
+.dobra2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title2{
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+

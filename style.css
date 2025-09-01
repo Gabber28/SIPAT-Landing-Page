@@ -1,28 +1,14 @@
 @import url(./header.css);
+@import url(./Dobra1.css);
+@import url(./Dobra2.css);
+@import url(./Dobra3.css);
+@import url(./Dobra4.css);
+@import url(./Dobra5.css);
+@import url(./footer.css);
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
     border: 2px solid black;
-}
-.dobra1{
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    margin-top: 30px;
-
-}
-.title{
-    font-size: 56px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 0px 50px 0px 0px;
-    border: 2px solid black;
-    width: 450px;
-}
-.img1{
-    width: 500px;
-    height: auto;
 }

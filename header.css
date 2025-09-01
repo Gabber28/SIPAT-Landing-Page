@@ -2,8 +2,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid black;
-    width: 80%;
+    width: 95%;
 }
 .header_image{
     width: 200px;
