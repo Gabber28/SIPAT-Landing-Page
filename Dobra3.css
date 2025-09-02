@@ -13,9 +13,17 @@
     margin-top: 25px;
     border-radius: 18px;
     transition: background-size 0.3s ease-in-out;
+    justify-items: center;
 }
 
 .inscricao:hover{
     background-size: 130%;
     cursor: pointer;
+}
+
+.btntitle {
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
 }
