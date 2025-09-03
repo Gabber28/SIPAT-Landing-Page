@@ -14,6 +14,11 @@
     border-radius: 18px;
     transition: background-size 0.3s ease-in-out;
     justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .inscricao:hover{
@@ -22,7 +27,7 @@
 }
 
 .btntitle {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bold;
     color: aliceblue;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
