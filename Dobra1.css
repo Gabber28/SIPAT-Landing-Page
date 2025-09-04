@@ -7,15 +7,21 @@
 }
 
 .title{
-    font-size: 150px;
+    font-size: 110px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 50px 0px 0px;
     width: 600px;
 }
 
+.title span{
+    background: linear-gradient(90deg, #00b2a9, #006298); /* Gradiente horizontal */
+    -webkit-background-clip: text; /* Define o gradiente como clip de texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+}
+
 .img1{
-    width: 600px;
+    width: 500px;
     height: auto;
     border-radius: 18px;
 }

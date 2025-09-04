@@ -3,8 +3,29 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 95%;
+    margin-top: 20px;
 }
 .header_image{
     width: 200px;
     height: auto;
 }
+
+.butao{
+    font-size: 30px;
+    margin-right: 15px;
+    font-weight: bold;
+    border: none;
+    background: none;
+}
+
+.butao span{
+    background: linear-gradient(90deg, #00b2a9, #006298); /* Gradiente horizontal */
+    -webkit-background-clip: text; /* Define o gradiente como clip de texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+}
+
+.butao:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 0.1s ease-in-out;
+}   
