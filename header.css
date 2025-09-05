@@ -1,10 +1,25 @@
 header{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 95%;
     margin-top: 20px;
+    border-bottom: transparent solid 3px;
+    padding-bottom: 15px;
 }
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: -3px; /* Alinha o gradiente com a borda inferior */
+    left: 0;
+    width: 100%;
+    height: 3px; /* Altura da borda */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 178, 169, 1), rgba(255, 255, 255, 0)); /* Gradiente simétrico */
+    pointer-events: none; /* Garante que o pseudo-elemento não interfira em cliques */
+}
+
 .header_image{
     width: 200px;
     height: auto;

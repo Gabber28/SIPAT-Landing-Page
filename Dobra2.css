@@ -30,7 +30,7 @@
 
 .img2{
     width: 600px;
-    height: 550px;
+    height: 750px;
     object-fit: cover;
     border-radius: 18px;
 }
@@ -126,4 +126,11 @@
     color: rgb(0, 0, 0);
     padding-right: 10px;
     border-color: #00b2a9;
+}
+
+.img4{
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 18px;
 }
