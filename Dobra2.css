@@ -47,10 +47,13 @@
     color: rgb(0, 0, 0);
     padding-left: 10px;
     border-color: #00b2a9;
+    display: flex;
+    margin-left: 20px;
+    position: absolute;
 }
 
 .div_text{
-    width: 100%;
+    width: 700px;
     display: block;
 }
 .evento{
@@ -75,10 +78,12 @@
     color: black
 }
 .descricao_evento{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    text-align: left;
+    margin-left: 15px;
 
 }
 .dia_impar{
@@ -108,7 +113,7 @@
 
 .img3{
     width: 600px;
-    height: 550px;
+    height: 625px;
     object-fit: cover;
     border-radius: 18px;
     margin-left: 25px;
@@ -118,7 +123,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 56px;
     border-right: 10px solid rgb(0, 0, 0);
-    width: 600px;
+    width: 680px;
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -126,11 +131,46 @@
     color: rgb(0, 0, 0);
     padding-right: 10px;
     border-color: #00b2a9;
+    position: absolute;
 }
 
 .img4{
     width: 600px;
-    height: 550px;
+    height: 625px;
     object-fit: cover;
     border-radius: 18px;
+}
+
+.list{
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 15px;
+}
+li{
+    margin-bottom: 8px;
+}
+
+.div_fudida{
+    display: flex;
+    align-items: start;
+    text-align: left;
+}
+
+.imgfudida {
+    width: 40%;
+    height: 80px;
+    object-fit: cover;
+    left: 330px;
+    position: relative;
+
+}
+
+.imgfudida2 {
+    width: 40%;
+    height: 80px;
+    object-fit: cover;
+    position: relative;
+    left: 100px;
 }
