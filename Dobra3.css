@@ -72,3 +72,79 @@
     text-decoration: none;
     text-shadow: black 1px 1px 2px;
 }
+
+.regras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    gap: 45px;
+}
+.atividades{
+    width: 200px;
+    border: 4px solid #00b2a9;
+    background-color: white;
+    box-shadow: rgb(82, 82, 82) 5px 5px 10px;
+    display: block;
+    text-align: center;
+    border-radius: 18px;
+    padding: 4px;
+}
+
+.btnatt{
+    width:150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    background: linear-gradient(to bottom, #2f2f2f 0%, #0d0d0d 65%, #000 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -6px 12px rgba(0,0,0,0.7);
+    position: relative;
+    cursor: pointer;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+}
+
+/* brilho interno superior (pseudo-elemento) */
+.btnatt::before{
+    content: '';
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    top: 6%;
+    height: 42%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.45), rgba(255,255,255,0.05));
+    pointer-events: none;
+    mix-blend-mode: overlay;
+}
+
+/* contorno fino externo para o relevo */
+.btnatt::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.08) inset, 0 -1px 0 rgba(0,0,0,0.6);
+    pointer-events: none;
+}
+
+.btnatt:active{
+    transform: translateY(5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5), inset 0 -4px 8px rgba(0,0,0,0.6);
+    filter: brightness(0.98);
+}
+
+/* se o botão for um <a> dentro, remova sublinhado e herde estilo */
+.btnatt a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    line-height: inherit;
+}

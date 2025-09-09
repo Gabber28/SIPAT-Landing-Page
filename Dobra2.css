@@ -49,12 +49,30 @@
     border-color: #00b2a9;
     display: flex;
     margin-left: 20px;
-    position: absolute;
+    /* position: absolute; */
 }
 
-.div_text{
+.div_text {
     width: 700px;
+    height: auto;
     display: block;
+    position: relative; 
+}
+
+.div_text::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./imagens/LinhaSIPAT20253.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.12 ; 
+    z-index: -1; 
+    border-radius: inherit; 
 }
 .evento{
     width: 200px;
@@ -131,7 +149,7 @@
     color: rgb(0, 0, 0);
     padding-right: 10px;
     border-color: #00b2a9;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .img4{
@@ -152,13 +170,13 @@ li{
     margin-bottom: 8px;
 }
 
-.div_fudida{
+/* .div_fudida{
     display: flex;
     align-items: start;
     text-align: left;
-}
+} */
 
-.imgfudida {
+/* .imgfudida {
     width: 40%;
     height: 80px;
     object-fit: cover;
@@ -173,4 +191,4 @@ li{
     object-fit: cover;
     position: relative;
     left: 100px;
-}
+} */
