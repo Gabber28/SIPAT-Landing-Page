@@ -15,9 +15,9 @@
 }
 
 .title span{
-    background: linear-gradient(90deg, #00b2a9, #006298); /* Gradiente horizontal */
-    -webkit-background-clip: text; /* Define o gradiente como clip de texto */
-    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+    background: linear-gradient(90deg, #00b2a9, #006298);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .img1{
