@@ -89,8 +89,6 @@
     background-color: white;
     box-shadow: rgb(82, 82, 82) 5px 5px 10px;
     border-radius: 18px;
-    padding: 4px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,3 +121,4 @@
     transition: all 0.1s ease-in-out;
     filter: brightness(1.1);
 }
+
