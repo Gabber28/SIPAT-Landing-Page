@@ -62,12 +62,12 @@
 .div_text::before {
     content: '';
     position: absolute;
-    inset: 0;
+    inset: -50px;
     background-image: url('./imagens/LinhaSIPAT20253.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.12;
+    opacity: 0.05;
     z-index: -1;
 }
 
