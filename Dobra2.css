@@ -79,6 +79,10 @@
     margin: 10px 0 20px 15px;
 }
 
+.list li {
+    margin-bottom: 10px;
+}
+
 /* Todas as imagens padronizadas */
 .img2,
 .img3,
