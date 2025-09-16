@@ -9,9 +9,8 @@
 /* Mapa */
 .mapa {
     width: 850px;
-    max-width: 90%;      /* para não estourar em telas pequenas */
-    height: 1200px;
-    max-height: 80vh;    /* ajusta a altura proporcional à tela */
+    max-width: 90%;
+
     border-radius: 15px;
     margin: 0 auto 50px auto;
     box-shadow: black 5px 5px 15px;
@@ -22,14 +21,22 @@
 #mapa,
 #mapa2 {
     font-size: clamp(2.5rem, 8vw, 90px); /* ajusta dinamicamente */
+    
 }
 
 #mapa2 {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .title3 {
     margin-bottom: 30px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 14px;
+    color: #555;
 }
 
 /* ---- MOBILE ---- */
